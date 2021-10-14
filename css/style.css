@@ -41,6 +41,11 @@ button {
 	background-color: transparent;
 	color: inherit;
 	cursor: pointer;
+	transition: all 0.5s;
+}
+button:hover {
+	border-color: #cb0e0e;
+	color: #cb0e0e;
 }
 
 body {
@@ -92,6 +97,22 @@ body {
 	font-size: 18px;
 	line-height: 21px;
 	transition: color 0.5s;
+	position: relative;
+}
+
+.menu__item a::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #cb0e0e;
+	height: 2px;
+	width: 0;
+	transition: ease 0.5s;
+}
+
+.menu__item a:hover::before {
+	width: 100%;
 }
 
 .menu__link:hover {
@@ -102,6 +123,11 @@ body {
 	font-size: 24px;
 	line-height: 29px;
 	margin-left: auto;
+	transition: color 0.5s;
+}
+
+.phone:hover {
+	color: #cb0e0e;
 }
 
 .login {
