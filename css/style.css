@@ -309,7 +309,6 @@ body {
 	transform: skewY(100px);
 }
 
-
 .how-to__box g:hover circle {
 	r: 20px;
 	fill: #036cca;
@@ -319,5 +318,5 @@ body {
 	font-size: 36px;
 	line-height: 43px;
 	fill: #036cca;
-	transform: translateY(6px);
+	transform: translateY(7px);
 }
