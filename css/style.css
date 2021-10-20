@@ -301,7 +301,8 @@ body {
 }
 
 .how-to__box circle,
-.how-to__box text {
+.how-to__box text,
+.how-to__box foreignObject {
 	transition: all 0.5s;
 	cursor: pointer;
 	font-size: 18px;
@@ -319,4 +320,48 @@ body {
 	line-height: 43px;
 	fill: #036cca;
 	transform: translateY(7px);
+}
+.how-to__box g:hover foreignObject {
+	color: #036cca;
+	font-size: 22px;
+}
+
+foreignObject {
+	text-align: left;
+}
+
+.to-book {
+	background-image: url(../images/tobook-bg.jpg);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.to-book__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.to-book_text {
+	width: 165px;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 400;
+	margin-top: 103px;
+	margin-left: auto;
+	margin-right: 52px;
+}
+
+.to-book_text + .to-book_text {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.info {
+	background-repeat: no-repeat;
+	background-image: url(../images/info-bg.jpg);
+	background-size: cover;
+	background-position: top center;
+	padding-bottom: 100px;
 }
