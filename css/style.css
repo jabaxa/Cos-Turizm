@@ -424,3 +424,147 @@ foreignObject {
 .speciol-offer__btn {
 	width: 100%;
 }
+
+.services {
+	padding-bottom: 200px;
+}
+
+.services__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services__box-list {
+	width: 700px;
+	margin-right: 80px;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.services__list-title {
+	margin-bottom: 25px;
+}
+
+.services__list {
+	list-style: none;
+	margin-bottom: 25px;
+}
+.services__list-item {
+	padding-left: 36px;
+	position: relative;
+}
+.services__list-item::before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #fff;
+	left: 0;
+	top: 4px;
+}
+
+.services__description {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.services__btn {
+	width: 100%;
+}
+
+.services__btn__first {
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.services__btn__first::before {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 32px;
+	background-image: url(../images/photo.png);
+	width: 192px;
+	height: 150px;
+}
+
+.slider {
+	text-align: center;
+}
+
+.slider__inner {
+	margin-bottom: 50px;
+	border: 1px solid #fff;
+	padding: 100px 0;
+}
+
+.slider__description {
+	font-family: "spaceagecyrillic";
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.slider__box-img {
+	margin: 0 auto;
+}
+
+.slider__arrow {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+}
+
+.slider__arrow-left {
+	left: 75px;
+}
+
+.slider__arrow-right {
+	right: 75px;
+}
+
+.contacts {
+	background-color: #010203;
+}
+
+.contacts__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts__box {
+	width: 500px;
+}
+
+.contacts__title {
+	padding-bottom: 46px;
+}
+
+.contacts__box-text {
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 80px;
+}
+
+.contacts__form-input {
+	background-color: #010203;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 30px;
+	color: #fff;
+	font-family: "sf-pro-display";
+	font-size: 14px;
+	line-height: 17px;
+	padding: 20px 0;
+}
+
+.contacts__form-input::placeholder {
+	color: #fff;
+	font-family: "sf-pro-display";
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.contacts__guarantees {
+	width: 600px;
+}
