@@ -343,7 +343,7 @@ foreignObject {
 	justify-content: space-between;
 }
 
-.to-book_text {
+.to-book__text {
 	width: 165px;
 	font-size: 14px;
 	line-height: 17px;
@@ -353,7 +353,7 @@ foreignObject {
 	margin-right: 52px;
 }
 
-.to-book_text + .to-book_text {
+.to-book__text + .to-book__text {
 	margin-left: 0;
 	margin-right: 0;
 }
