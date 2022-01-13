@@ -478,7 +478,7 @@ foreignObject {
 	position: relative;
 }
 
-.services__btn__first::before {
+.services__btn-first::before {
 	content: "";
 	position: absolute;
 	right: 0;
